@@ -21,8 +21,8 @@ fig, ax = plt.subplots()
 ax.plot(data_x, data_y)
 
 # Customize the plot (optional)
-ax.set_xlabel('X-axis')
-ax.set_ylabel('Y-axis')
+ax.set_xlabel('Nodes')
+ax.set_ylabel('Edges')
 ax.set_title('Graph')
 
 # Show the plot

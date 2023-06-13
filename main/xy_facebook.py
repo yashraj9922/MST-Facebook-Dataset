@@ -4,7 +4,7 @@ import numpy as np
 data_x = []
 data_y = []
 
-with open('facebook_combined.txt', 'r') as file:
+with open('Dataset\\facebook_combined.txt', 'r') as file:
     for line in file:
         x, y = line.strip().split(' ')
         data_x.append(float(x))

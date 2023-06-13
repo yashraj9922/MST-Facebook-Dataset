@@ -2,7 +2,7 @@ import networkx as nx
 
 # Create the graph from the dataset
 G = nx.Graph()
-with open("facebook_combined.txt", "r") as file:
+with open("Dataset\\temp_dataset.txt", "r") as file:
     for line in file:
         data = line.strip().split()
         node1 = data[0]

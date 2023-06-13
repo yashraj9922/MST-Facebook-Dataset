@@ -27,4 +27,3 @@ ax.set_title('Graph')
 
 # Show the plot
 plt.show()
-
